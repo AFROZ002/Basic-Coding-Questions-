@@ -5,7 +5,13 @@ public class Str1 {
         int Count=0;
 
         for(int i=0;i<n;++i){
-            Count++;
+            if(str1.charAt(i)==' '){
+                continue;
+            }
+            else{
+                Count++;
+            }
+
 
         }
         System.out.println(Count);
